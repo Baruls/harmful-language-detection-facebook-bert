@@ -38,10 +38,10 @@ The model demonstrated promising performance in classifying harmful language.
 -   These results highlight a trade-off between minimizing false positives and maximizing recall for the harmful class, indicating areas for future improvement.
 
 ## Files in this Repository
--   `BERT Train Using Facebook Post Scraping.ipynb`: The main Google Colab Jupyter Notebook containing all the code for data preprocessing, model training, and evaluation. (Make sure you replace this with your actual notebook file name).
+-   `BERT_Train_Facebook_Post.ipynb`: The main Google Colab Jupyter Notebook containing all the code for data preprocessing, model training, and evaluation. (Make sure you replace this with your actual notebook file name).
 -   `fb-posts.csv`: The dataset used for this project.
 -   `README.md`: This file.
--   `images/` (Optional): A folder containing figures such as ROC curves, confusion matrix heatmap, and training performance plots. (Highly recommended to upload your plots here).
+-   `images/`: A folder containing figures such as ROC curves, confusion matrix heatmap, and training performance plots. (Highly recommended to upload your plots here).
 
 ## Future Work
 -   Improve recall for the minority class through more advanced imbalanced dataset handling strategies (e.g., oversampling, undersampling).
