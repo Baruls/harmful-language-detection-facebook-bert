@@ -43,18 +43,6 @@ The model demonstrated promising performance in classifying harmful language.
 -   `README.md`: This file.
 -   `images/` (Optional): A folder containing figures such as ROC curves, confusion matrix heatmap, and training performance plots. (Highly recommended to upload your plots here).
 
-## How to Run
-1.  **Clone the repository**:
-    ```bash
-    git clone [https://github.com/YourUsername/your-repo-name.git](https://github.com/YourUsername/your-repo-name.git)
-    ```
-2.  **Navigate to the project directory**:
-    ```bash
-    cd your-repo-name
-    ```
-3.  **Open the notebook in Google Colab**: Click on the `your_notebook_name.ipynb` file in GitHub and then click the "Open in Colab" button at the top.
-4.  **Run all cells**: Execute all cells in the Colab notebook. Ensure you are logged into your Google Drive and have internet access for downloading the BERT model and dataset.
-
 ## Future Work
 -   Improve recall for the minority class through more advanced imbalanced dataset handling strategies (e.g., oversampling, undersampling).
 -   Conduct in-depth error analysis on false negatives to understand specific failure cases (e.g., sarcasm, implicit language).
