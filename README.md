@@ -25,16 +25,16 @@ The project employs a robust methodology centered on fine-tuning a BERT-based Tr
 ## Results
 The model demonstrated promising performance in classifying harmful language.
 
--   **Overall Accuracy**: 81.07%.
+-   **Overall Accuracy**: 75.70%.
 -   **Minority Class (Harmful) Performance**:
-    -   Precision: 0.74
-    -   Recall: 0.49
-    -   F1-score: 0.59
+    -   Precision: 0.55
+    -   Recall: 0.72
+    -   F1-score: 0.62
 -   **Confusion Matrix**:
-    -   True Negatives: 139
-    -   False Positives: 10
-    -   False Negatives: 29
-    -   True Positives: 28
+    -   True Negatives: 115
+    -   False Positives: 16
+    -   False Negatives: 34
+    -   True Positives: 41
 -   These results highlight a trade-off between minimizing false positives and maximizing recall for the harmful class, indicating areas for future improvement.
 
 ## Files in this Repository
